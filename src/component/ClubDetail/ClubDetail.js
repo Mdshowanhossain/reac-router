@@ -4,7 +4,7 @@ import './ClubDetail.css';
 import cardImg from './card.png';
 
 const ClubDetail = () => {
-    const { name, idLeague, strLeague, strSport, strLeagueAlternate } = useParams({});
+    const { name, strLeague, strSport, strLeagueAlternate } = useParams({});
     const [club, setClub] = useState([]);
     useEffect(() => {
         const url = `https://www.thesportsdb.com/api/v1/json/1/all_leagues.php/${name}`

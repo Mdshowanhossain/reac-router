@@ -16,11 +16,13 @@ const Club = (props) => {
                     </div>
 
                     <div className="cardStyle">
-                        <h5>Club id number:{idLeague}</h5>
-                        <h3>Club Name: {strLeague}</h3>
-                        <h4>Type Of Sports: {strSport}</h4>
-                        <h3>Name Of league:{strLeagueAlternate}</h3>
-                        <Link to={`/clubName/${strLeague}`}><button>Show Detail Club <FontAwesomeIcon icon={faCoffee, faArrowRight} /> </button> </Link>
+                        <h5>Club id=>{idLeague}</h5>
+                      
+                        <h4>Club Name=> {strLeague}</h4>
+                        <h5>Name Of league=>{strLeagueAlternate}</h5>
+                        <h4>Type Of Sports=> {strSport}</h4>
+                      
+                        <Link to={`/clubName/${strLeague}`}><button>Show  Club Detail <FontAwesomeIcon icon={faCoffee, faArrowRight} /> </button> </Link>
                     </div>
 
                 </container>
