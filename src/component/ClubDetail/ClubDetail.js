@@ -11,7 +11,7 @@ const ClubDetail = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setClub(data))
-    }, []);
+    }, [name]);
 
     const cardImgStyle = {
         width: '500px',

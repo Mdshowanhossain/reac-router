@@ -11,13 +11,14 @@ import NotFound from './component/NotFound/NotFound';
 import ClubDetail from './component/ClubDetail/ClubDetail';
 import BackgroundImg from './component/BackgroundImg/BackgroundImg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LoadData from './LoadData/LoadData';
+// import LoadData from './LoadData/LoadData';
 
 function App() {
   return (
     <div>
    {/* <LoadData></LoadData> */}
       <BackgroundImg></BackgroundImg>
+     
       <Router>
         <Switch>
 
