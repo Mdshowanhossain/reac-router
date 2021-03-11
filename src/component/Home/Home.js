@@ -13,7 +13,7 @@ const Home = () => {
 
     return (
         <div>
-            <h1>All club :{clubs.length}</h1>
+            <h1>All Club Quantity{clubs.length}</h1>
             {
                 clubs.map(club => <Club club={club}></Club>)
             }
