@@ -1,0 +1,26 @@
+body{
+  
+}
+.cardStyle{
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.cardStyle:hover{
+    box-shadow: 2px 5px 5px white;
+}
+
+/* 230370 */
+
+.card-container{
+    background-color:gray;
+    box-sizing: border-box;
+    display: flex;
+}

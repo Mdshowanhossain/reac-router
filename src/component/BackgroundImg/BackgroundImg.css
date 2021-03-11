@@ -1,0 +1,25 @@
+.topFixedBanner {
+    background-image: url("../bgImg/bgim.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topOverlay {
+position:absolute;
+min-height: 500px;
+width: 100%;
+background: rgba(0, 0, 0, 0.4);
+}
+.topContent {
+    margin-top: 10rem;
+}
+.tagStyle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
